@@ -22,9 +22,8 @@ def make_authenticated_request(api_url, bearer_token):
         print(f"Error: {e}")
 
 # Replace 'YOUR_API_URL' with the actual API endpoint you want to access
-api_url = 'https://api.zephyrscale.smartbear.com/v2/testcases/DEV-T119'
-#api_url = 'https://api.zephyrscale.smartbear.com/v2/testcases/DEV-T117/teststeps'
-#api_url = 'https://api.zephyrscale.smartbear.com/v2/folders/14808425'
+#api_url = 'https://api.zephyrscale.smartbear.com/v2/testcases'
+api_url= 'https://api.zephyrscale.smartbear.com/v2/testcases?startAt=10&maxResults=10'
 
 
 file_path = 'token.txt'
